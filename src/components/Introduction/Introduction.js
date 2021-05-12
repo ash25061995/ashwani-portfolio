@@ -1,10 +1,13 @@
 import React from 'react';
-import { mainDivStyles, headingStyles } from './style';
+import plane from '../../assets/img/plane.gif';
+import './Style.scss';
 
 const Introduction=()=>{
     return(
-        <div className='main' style={mainDivStyles}>
-            <h1 style={headingStyles}>My name is Ashwani.</h1>
+        <div className='main'>
+            <img src={plane} alt="plane.gif"/>
+            <h1 className="heading">Ashwani Sinha</h1>
+            <button className='Connect-btn'>Connect with me!</button>
         </div>
     )
 }

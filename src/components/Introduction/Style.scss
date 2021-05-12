@@ -1,0 +1,28 @@
+.Connect-btn {
+    border-radius: 30px;
+    padding: 11px;
+    border: 2px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 2%;
+    color: whitesmoke;
+    }
+.Connect-btn:hover {
+    background:#fff;
+    color: #2ba6cb;
+}
+
+.heading{
+    font-size: 3.45rem;
+    font-weight: 400;
+    color: #fff;
+    margin: auto;
+    font-family: Sacramento;
+}
+
+.main{
+    height: 500px;
+    background-image: url("https://akshaysaini.in/img/clouds.png");
+    background-repeat:repeat;
+    background-size:contain;
+}
